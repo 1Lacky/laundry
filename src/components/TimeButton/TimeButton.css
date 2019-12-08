@@ -1,0 +1,9 @@
+.TimeButton{
+    width: 105px;
+    display: block;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}

@@ -1,0 +1,14 @@
+.TableMesh{
+    border: 1px solid #dadce0;
+    border-bottom: none;
+    border-left: none;
+    margin: 0px;
+    padding: 0px;
+}
+.TableCell{
+    border-bottom: 1px solid #dadce0;
+    list-style: none;
+    margin: 0;
+    height: 52px;
+    padding: 10px 10px 10px 5px;
+}

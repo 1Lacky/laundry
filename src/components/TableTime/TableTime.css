@@ -1,0 +1,40 @@
+.table-time{
+    min-width: 60px;
+}
+.table-clock{
+    margin: 0px;
+    padding: 0px;
+}
+.table-clock__item{
+    text-align: right;
+    position: relative;
+    font-size: 16px;
+    list-style: none;
+    height: 73px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 73px;
+    padding-right: 10px;
+    color:#70757a;
+}
+.table-clock__item::after{
+    position: absolute;
+    top:0;
+    right: 0;
+    border: 1px solid #dadce0;
+    border-left: none;
+    border-top: none;
+    display: block;
+    content: "";
+    height: 72px;
+    width: 15px;
+}
+.beautiful-border{
+    margin-top: 54px;
+    margin-left: 44px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #dadce0;
+    border-left: none;
+    border-top: none;
+}

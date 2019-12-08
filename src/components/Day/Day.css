@@ -1,0 +1,33 @@
+.day{
+    width: 160px;
+    background-color: #fff;
+}
+.day::after{
+    content: "";
+    width: 160px;
+    height: 15px;
+    border: 1px solid #dadce0;
+    border-bottom: none;
+    border-top:none;
+    border-left:none;
+    display: block;
+}
+.title{
+    text-align: center;
+    margin: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #70757a;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title-number{
+    font-size: 24px;
+    color: #3c4043;
+    text-align: center;
+    margin: 0;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}

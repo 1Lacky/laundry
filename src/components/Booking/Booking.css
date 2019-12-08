@@ -1,0 +1,215 @@
+.bookingBlock{
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Roboto' ,Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.ui-form {
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Roboto' ,Arial,sans-serif;
+    max-width: 400px;
+    padding: 80px 30px 30px;
+    margin: 30px 0 ;
+    background: white;
+    box-sizing: border-box;
+}
+.ui-form h3 {
+  position: relative;
+  z-index: 5;
+  margin: 0 0 60px;
+  text-align: center;
+  color: #1a73e8;
+  font-size: 30px;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+/*.ui-form h3:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 60px;
+  top: -30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fee8e4;
+  box-sizing: border-box;
+}*/
+.ui-form h3:after {
+  content: url(machine_icon2.png); width: 100px; height: 100px;
+  position: absolute;
+  opacity: 0.4;
+  z-index: -1;
+  right: 190px;
+  top: -34px;
+  width: 0px;
+  height: 0px;
+  box-sizing: border-box;
+}
+.form-row {
+  position: relative;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+.form-row input {
+  display: block;
+  width: 100%;
+  color: #3c4043;
+  font-family: 'Roboto' ,Arial,sans-serif;
+  font-size: 20px;
+  padding: 0 10px;
+  line-height: 40px;
+  background: none;
+  border-width: 0;
+  border-bottom: 1px solid #dadce0;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+.form-row label {
+  position: absolute;
+  left: 13px;
+  color: #9d959d;
+  font-size: 20px;
+  font-weight: 300;
+  transform: translateY(-35px);
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+.form-row input:focus {
+  outline: 0;
+  border-color: #1a73e8;
+  box-sizing: border-box;
+}
+.form-row input:focus + label,
+.form-row input:valid + label {
+  transform: translateY(-60px);
+  margin-left: -14px;
+  font-size: 16px;
+  font-weight: 400;
+  outline: 0;
+  border-color: #1a73e8;
+  color: #1a73e8;
+  box-sizing: border-box;
+}
+.submitBtn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 0;
+    line-height: 42px;
+    background: #1a73e8;
+    border-width: 0;
+    color: white;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.ui-form p {
+  margin: 0;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+.blockWash{
+    color: #9d959d;
+    font-size: 20px;
+    font-weight: 300;
+}
+.listWash{
+    margin: 10px 0 20px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.itemWash{
+    cursor: pointer;
+    display: block;
+    width: 40px;
+    list-style-type: none;
+    border: 1px solid #3c4043;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align:middle;
+    margin: 0 10px;
+    padding: 5px 0px;
+}
+.Bottom{
+    margin-bottom: 20px;
+}
+.blockWash .left{
+    display: block;
+    margin-left: 13px;
+}
+
+.itemWash-active{
+	background-color: #1a73e8;
+	color:#fff;
+	border: 1px solid #1a73e8;
+}
+
+
+
+
+
+
+/*}
+.formBlock{
+    display: block;
+    border-radius: 8px;
+    padding: 50px 50px;
+    background-color: #fff;
+    box-shadow: -9px 20px 24.03px 2.97px rgba(85, 94, 102, 0.27);
+}
+.inputName{
+    width: 250px;
+	font-size: 16px;
+	padding: 10px;
+    margin-left: 15px;
+	border: 1px solid #000;
+	background-color: #fff;
+	border-radius: 8px;
+}
+.labelName{
+    text-transform: uppercase;
+    display: block;
+	padding: 10px 0px;
+}
+.inputRoom{
+    width: 150px;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 15px;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.labelRoom{
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 0px;
+}
+.listWash{
+    text-transform: uppercase;
+    display: block;
+	padding: 10px 0px;
+}
+.submitBtn{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #44ac92;
+    padding: 20px;
+    font-size: 16px;
+    margin: auto;
+    text-transform: uppercase;
+    color: #fff;
+    box-shadow: -9px 20px 24.03px 2.97px rgba(85, 94, 102, 0.27);
+}
+*/

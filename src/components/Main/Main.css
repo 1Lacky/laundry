@@ -1,0 +1,15 @@
+.main{
+
+}
+.container{
+    margin:20px;
+    display: flex;
+    justify-content:center;
+
+}
+.content{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: auto;
+}

@@ -1,0 +1,11 @@
+.header{
+    width: 100%;
+    border-bottom: 1px solid #dadce0;
+    font-size: 24px;
+
+}
+.header__title{
+    margin: 0;
+    padding: 20px;
+    color: #3c4043;
+}
